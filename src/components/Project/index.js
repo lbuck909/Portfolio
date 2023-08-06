@@ -7,11 +7,11 @@ function Project({ project }) {
 
   return (
     <div className="project" key={name}>
-      <img
+      {/* <img
         src={require(`../../assets/projects/${name}.jpg`).default}
         alt={removeHyphensAndCapitalize(name)}
         className="pjt-background"
-      />
+      /> */}
       <div className="pjt-text">
         <h3>
           <a href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}

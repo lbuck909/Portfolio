@@ -15,15 +15,15 @@ function About() {
 
     <p>
   Beyond the kitchen and office, my passion for health and well-being led me to become a certified lactation specialist and delve into the world of public health nutrition. These experiences have given me a deep appreciation for the human element in technology and how it can transform lives for the better.
-
+<p>
 Now, as I set my sights on the tech sales world, I'm excited to combine my technical knowledge and cross-disciplinary expertise. I'm on the lookout for a cutting-edge organization that values innovation, growth, and making a positive impact on the world.
-
+</p>
 Join me as I strive to bring my diverse background, creativity, and determination to contribute to a forward-thinking team. Let's shape a brighter future together!
-
+<p>
 Thank you for taking the time to explore my portfolio. I hope we can connect and explore new possibilities soon. Don't hesitate to reach out—I'm always up for a good conversation or collaboration.
-
+</p>
 Let's make an impact together!
-
+<p></p>
 LaiSha Buck, MPH CLC
         </p>
       </div>

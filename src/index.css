@@ -1,2 +1,48 @@
-*{  @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:wght@300&display=swap');
+body {
+  font-family: 'Montserrat', 'Agdasima', sans-serif;
+}
+/* Header styles */
+.flex-row {
+  display: inline;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+
+/* Logo styles */
+.flex-row img {
+  width: 100px;
+  height: auto;
+}
+
+/* Navigation styles */
+.flex-row nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-row nav li {
+  font-size: 16px;
+}
+
+.flex-row nav li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex-row img {
+    margin-top: 10px;
+  }
 }

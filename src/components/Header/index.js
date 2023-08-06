@@ -1,12 +1,12 @@
 import React from 'react';
-import mobilePic from '../../assets/Ai Cell phone pic.png';
+import logo from '../../assets/logo.png';
 
 function Header (props) {
 
   return (
     <header className="flex-row space-between px-1">
       <h1>Portfolio</h1>
-      <img src={mobilePic} alt="cellphone pic"></img>
+      <img src={logo} alt="logo"></img>
       {props.children}
     </header>
   )

@@ -73,10 +73,19 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+@media (max-width: 768px) {
+  .project {
+    width: calc(100% - 20px); 
+  }
+}
+@media (min-width: 769px) {
+  .project {
+    width: calc(33.33% - 20px); 
+  }
+}
 .project {
   width: calc(33.33% - 20px); 
-  margin-bottom: 20px;
+  margin: 20px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -147,4 +156,22 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
+footer {
+  z-index: 100;
+}
 
+footer {
+  font-size: 48px;
+  justify-content: center;
+}
+
+footer a {
+  color: #44bd32;
+  opacity: .5;
+  margin: 10px 20px;
+  transition: all .3s ease-in-out;
+}
+
+footer a:hover {
+  opacity: 1;
+}

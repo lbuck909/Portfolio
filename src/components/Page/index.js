@@ -5,6 +5,7 @@ import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Resume from '../Resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import Footer from '../Footer';
 
 function Page({ currentPage }) {
   console.log('currentPage', currentPage);
@@ -19,6 +20,8 @@ function Page({ currentPage }) {
         return <Contact />;
       case 'resume':
         return <Resume />;
+      case 'footer':
+        return <Footer />;
       default:
         return <About />;
     }

@@ -7,12 +7,13 @@ import Resume from '../Resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Page({ currentPage }) {
-
+  console.log('currentPage', currentPage);
   const renderPage = () => {
     switch (currentPage.name) {
       case 'about me':
         return <About />;
       case 'portfolio':
+        console.log('test');
         return <Portfolio />;
       case 'contact':
         return <Contact />;

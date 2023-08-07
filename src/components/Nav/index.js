@@ -14,7 +14,7 @@ function Nav({ pages = [], setCurrentPage, currentPage }) {
             className={`mx-5 ${currentPage.name === page.name && 'navActive'}`}
             key={page.name}
           >
-            <span onClick={() => setCurrentPage(page)}>
+            <span onClick={() =>  setCurrentPage(page)}>
               {capitalizeFirstLetter(page.name)}
             </span>
           </li>

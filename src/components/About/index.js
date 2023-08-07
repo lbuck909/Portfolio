@@ -1,5 +1,5 @@
 import React from 'react';
-
+import AISha from "../../assets/AI Sha.jpg"
 function About() {
   return (
     <section className='my-intro'>
@@ -8,6 +8,7 @@ function About() {
 
         </div>
         <p>
+          <img class="profile" src={AISha} alt="prolicePic"/>
         Welcome to my portfolio! I'm thrilled to have you here. As a recent Full Stack Developer Bootcamp Graduate, I'm eager to embark on an exciting journey in the tech sales arena. But let me tell you, my path here has been quite an adventure!
 
         In the past, I've grown  in various fields, each one adding a unique layer to my diverse skillset. From exploring the artistry of culinary delights to delving into the complexities of business administration, I've had the pleasure of wearing different hats and learning valuable lessons along the way.</p>

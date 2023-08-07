@@ -29,6 +29,7 @@ body {
 
 .flex-row nav li {
   font-size: 16px;
+  cursor: pointer;
 }
 
 .flex-row nav li a {
@@ -46,4 +47,8 @@ body {
   .flex-row img {
     margin-top: 10px;
   }
+}
+.profile{
+  float:right;
+  width: 300px;
 }

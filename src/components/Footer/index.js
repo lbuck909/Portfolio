@@ -4,11 +4,12 @@ function Footer() {
 
     const icons = [
     {
-      name: "fab fa-github",
-      link: "https://github.com/lbuck909"
+      name: "github",
+      link: "https://github.com/lbuck909",
+    
     },
     {
-      name: "fab fa-linkedin",
+      name: "linkedin",
       link: "https://www.linkedin.com/in/laisha-buck-mph7/"
     },
     

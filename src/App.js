@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Page from "./components/Page";
 import Footer from "./components/Footer";
+
 import GoogleFontLoader from 'react-google-font-loader';
 
 function App() {

@@ -18,9 +18,9 @@ body {
 /* Logo styles */
 .flex-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  height: 100vh; /* Set the container's height to the viewport height */
+  height: 100px; 
 }
 .flex-row img {
   width: 200px;
@@ -119,14 +119,14 @@ body {
 
 /*Contact form styling*/
 
-/* Style for form labels */
+
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 6px;
 }
 
-/* Style for form input and textarea */
+/* Style form input and textarea */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -160,8 +160,9 @@ button[type="submit"]:hover {
   margin-top: auto;
 }
 footer {
-  font-size: 48px;
+  font-size: 30px;
   justify-content: center;
+  background-color: #ff7675;
 }
 
 footer a {

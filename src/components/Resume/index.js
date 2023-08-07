@@ -8,7 +8,7 @@ function Resume() {
         Download my <a href="https://www.linkedin.com/in/laisha-buck-mph7/">resume</a>
         </p>
         <h3>Front-end Proficiencies</h3>
-        <ul className="skills">
+        <ul className="my-skills">
           <li>Bulma</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -16,14 +16,16 @@ function Resume() {
           <li>HTML</li>
           <li>React</li>
           <li>Bootstrap</li>
+          <li>HTML</li>
         </ul>
         <h3>Back-end Proficiencies</h3>
-        <ul className="skills">
+        <ul className="my-skills">
+          <li>MongoDB, Mongoose</li>
           <li>APIs</li>
           <li>Node</li>
+          <li>Sequelize</li>
           <li>Express</li>
-          <li>MySQL, Sequelize</li>
-          <li>MongoDB, Mongoose</li>
+          <li>MySQL</li>
           <li>REST</li>
           <li>GraphQL</li>
         </ul>

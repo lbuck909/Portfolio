@@ -26,7 +26,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-      console.log('Submit Form', formState);
+      console.log('Email Form', formState);
     }
   };
 
@@ -34,7 +34,7 @@ function Contact() {
 
   return (
     <section>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="email-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input

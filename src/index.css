@@ -1,23 +1,37 @@
 body {
   font-family: 'Montserrat', 'Agdasima', sans-serif;
-}
+  background-color: #40739e;
+
 
 /* Header styles */
 .flex-row {
   display: inline;
   flex-direction: row;
-  justify-content: left;
+  justify-content: right;
   align-items: flex-start;
   padding: 5px;
-  background-color: #f0f0f0;
+  font-weight: 800;
+  color: white;
+  /* background-color: #a53333; */
 }
 
 /* Logo styles */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the container's height to the viewport height */
+}
 .flex-row img {
   width: 200px;
   height: auto;
 }
-
+}
+.profile {
+  width: 150px;
+  object-fit: cover; 
+  
+}
 /* Navigation styles */
 .flex-row nav ul {
   list-style: none;
@@ -32,10 +46,10 @@ body {
   cursor: pointer;
 }
 
-.flex-row nav li a {
+/* .flex-row nav li a {
   text-decoration: none;
   color: #cd9797;
-}
+} */
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -48,7 +62,89 @@ body {
     margin-top: 10px;
   }
 }
+
 .profile{
   float:right;
   width: 300px;
 }
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: calc(33.33% - 20px); 
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.project p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/*Contact form styling*/
+
+/* Style for form labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* Style for form input and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for error message */
+.error-text {
+  color: #ff0000;
+  margin-top: 6px;
+}
+
+/* Style for submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+

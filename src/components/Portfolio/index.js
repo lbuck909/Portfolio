@@ -3,6 +3,9 @@ import Project from "../Project";
 import pawsitiveLogo from "../../assets/pawsitiveLogo.png";
 import TeeTracker from "../../assets/TeeTrackerCourseLogo.png";
 import Asteria from "../../assets/Asteria.png";
+import MySQL from "../../assets/MySQL.jpg";
+import workdayScheduler from "../../assets/workdayScheduler.jpg";
+import code from "../../assets/code.jpg";
 function Portfolio() {
 
   const [projects] = useState([
@@ -27,17 +30,32 @@ function Portfolio() {
     repo: "https://github.com/marshallpeters5/asteria-app.git",
     img: Asteria
   },
-  // {
-  //   name: '',
-  //   description:'',
-  //   link:"",
-  //   repo: ""
-  // },
+  {
+    name: 'Weekday Scheduler',
+    description:'JavaScript',
+    link:"https://github.com/lbuck909/WeekdayScheduler.git",
+    repo: "https://github.com/lbuck909/WeekdayScheduler.git",
+    img: workdayScheduler
+  },
+  {
+    name: 'NoSQL Social Network',
+    description:'MongoDB, Insomnia',
+    link:"https://github.com/lbuck909/NoSQL-Social-Network-Challenge.git",
+    repo: "https://github.com/lbuck909/NoSQL-Social-Network-Challenge.git",
+    img: MySQL
+  },
+  {
+    name: 'Note Taker App',
+    description:'Express, JSON',
+    link:"https://github.com/lbuck909/Note_Taker_App.git",
+    repo: "https://github.com/lbuck909/Note_Taker_App.git",
+    img: code
+  }
 ]);
 
 return (
   <div>
-  <div className='flex-row'>
+  <div className='projects'>
     {projects.map((project, idx) =>(
       <Project
       project={project}

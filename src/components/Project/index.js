@@ -6,7 +6,7 @@ function Project({ project }) {
   const { link, repo, name, description, img } = project;
 
   return (
-    <div className="project1" key={name}>
+    <div className="project" key={name}>
       <img
         src={img}
         alt={removeHyphensAndCapitalize(name)}
@@ -16,8 +16,7 @@ function Project({ project }) {
         <h3>
           <a href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
           <a href={repo}>
-            <i className="fab fa-github"></i>
-          </a>
+                      </a>
         </h3>
         <p>{description}</p>
       </div>

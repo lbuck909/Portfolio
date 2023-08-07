@@ -5,29 +5,29 @@ function Portfolio() {
 
   const [projects] = useState([
   {
-    name: '',
-    description:'',
-    link:"",
-    repo: ""
+    name: 'Pawsitive Connections',
+    description:'MySql,Express, Sequelize',
+    link:"https://stark-harbor-37192.herokuapp.com/",
+    repo: "https://github.com/JTruehitt/Pawsitive_Connections.git"
   },
   {
-    name: '',
-    description:'',
+    name: 'Tee-Tracker',
+    description:'MERN Stack',
     link:"",
-    repo: ""
+    repo: "https://github.com/andyr-dev/Tee-Tracker.git"
   },
   {
-    name: '',
-    description:'',
-    link:"",
-    repo: ""
+    name: 'Asteria',
+    description:'Server-side APIs',
+    link:"https://marshallpeters5.github.io/asteria-app/",
+    repo: "https://github.com/marshallpeters5/asteria-app.git"
   },
-  {
-    name: '',
-    description:'',
-    link:"",
-    repo: ""
-  },
+  // {
+  //   name: '',
+  //   description:'',
+  //   link:"",
+  //   repo: ""
+  // },
 ]);
 
 return (

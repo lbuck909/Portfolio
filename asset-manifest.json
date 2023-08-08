@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.fd2e25a3.css",
+    "main.js": "/Portfolio/static/js/main.3c098cfa.js",
+    "static/media/code.jpg": "/Portfolio/static/media/code.a7a7d29e410074d38524.jpg",
+    "static/media/MySQL.jpg": "/Portfolio/static/media/MySQL.c14244160da95312a106.jpg",
+    "static/media/Asteria.png": "/Portfolio/static/media/Asteria.d34cc6d4c08b2c153701.png",
+    "static/media/AI Sha.jpg": "/Portfolio/static/media/AI Sha.459659d3f9e49e2350ba.jpg",
+    "static/media/TeeTrackerCourseLogo.png": "/Portfolio/static/media/TeeTrackerCourseLogo.86a40dba7fac6f4276f9.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.b922072c4a8186ec5092.png",
+    "static/media/workdayScheduler.jpg": "/Portfolio/static/media/workdayScheduler.72a6a8660897cb83aaf3.jpg",
+    "static/media/pawsitiveLogo.png": "/Portfolio/static/media/pawsitiveLogo.300b525924eb4148d6ee.png",
+    "index.html": "/Portfolio/index.html",
+    "main.fd2e25a3.css.map": "/Portfolio/static/css/main.fd2e25a3.css.map",
+    "main.3c098cfa.js.map": "/Portfolio/static/js/main.3c098cfa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd2e25a3.css",
+    "static/js/main.3c098cfa.js"
+  ]
+}

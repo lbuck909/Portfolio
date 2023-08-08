@@ -180,9 +180,7 @@ footer a {
 footer a:hover {
   opacity: 1; /* Increase opacity on hover */
 }
-.main-content {
-  min-height: calc(50vh - headerHeight - footerHeight); 
-}
+
 @media (max-width: 768px) {
   footer {
     height: 30px; /* Adjust the height for smaller screens */

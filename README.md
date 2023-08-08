@@ -9,7 +9,7 @@ This project was created using React, JAX, and CSS. My portfolio provides some i
 
 ## Screenshots
 ![Alt text](src/assets/Screenshot1.png)
-![Alt text](src/assets/screenshot2.png)
+![Alt text](src/assets/Screenshot2.png)
 
 
 ### Installation instructions

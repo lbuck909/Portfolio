@@ -183,3 +183,17 @@ footer a:hover {
 .main-content {
   min-height: calc(50vh - headerHeight - footerHeight); 
 }
+@media (max-width: 768px) {
+  footer {
+    height: 30px; /* Adjust the height for smaller screens */
+    padding: 0 10px; /* Adjust the padding for smaller screens */
+  }
+  
+  footer a {
+    margin: 0 5px; /* Adjust the margin for smaller screens */
+  }
+  
+  footer img {
+    width: 18px; /* Adjust the icon width for smaller screens */
+  }
+}

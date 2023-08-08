@@ -8,7 +8,7 @@ This project was created using React, JAX, and CSS. My portfolio provides some i
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Screenshots
-![Alt text](image.png)
+![Alt text](src/assets/Screenshot1.png)
 ![Alt text](src/assets/screenshot2.png)
 
 

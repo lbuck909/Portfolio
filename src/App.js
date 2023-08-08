@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 import Page from "./components/Page";
 import Footer from "./components/Footer";
 
-import GoogleFontLoader from 'react-google-font-loader';
+// import GoogleFontLoader from 'react-google-font-loader';
 
 function App() {
   const [pages] = useState([
@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
         {/* Use the GoogleFontLoader component to load and apply fonts */}
-        <GoogleFontLoader
+        {/* <GoogleFontLoader
         fonts={[
           {
             font: 'Agdasima',
@@ -33,7 +33,7 @@ function App() {
             weights: [300],
           },
         ]}
-      />
+      /> */}
       <Header>
         <Nav
           pages={pages}
